@@ -46,9 +46,11 @@ else
   xnoremap J :move '>+1<CR>gv-gv
 
   " Alternate way to save
-  nnoremap <silent> <C-s> :w<CR>
+  " nnoremap <silent> <C-s> :w<CR>
+  map S :w<CR>
   " Alternate way to quit
-  nnoremap <silent> <C-Q> :wq!<CR>
+  " nnoremap <silent> <C-Q> :wq!<CR>
+  map Q :q <CR>
   " Use control-c instead of escape
   nnoremap <silent> <C-c> <Esc>
   " <TAB>: completion.

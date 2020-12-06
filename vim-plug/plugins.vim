@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " 编辑格式统一插件
+    Plug 'editorconfig/editorconfig-vim'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast

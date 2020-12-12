@@ -31,7 +31,6 @@ else
   if has_key(plugs, 'editorconfig-vim')
     source $HOME/.vim/plug-config/editorconfig-vim.vim
   endif
-
   source $HOME/.config/nvim/plug-config/vim-commentary.vim
   " source $HOME/.config/nvim/plug-config/rainbow.vim
   source $HOME/.config/nvim/plug-config/rnvimr.vim

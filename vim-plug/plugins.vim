@@ -30,7 +30,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'asvetliakov/vim-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
-
     " Sneak
     Plug 'justinmk/vim-sneak'
     " Surround
@@ -54,9 +53,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'christianchiarulli/nvcode.vim'
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
-    " Intellisense
+    " 智能感知
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Status Line
+    " 状态栏
     Plug 'vim-airline/vim-airline'
     Plug 'kevinhwang91/rnvimr'
     " FZF
@@ -69,15 +68,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
-    " Terminal
+    " 终端
     Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'
-    " Vista
+    " 大纲
     Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
-    " Zen mode
+    " 专注模式
     Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'huguanghui/vim-snippets'

@@ -10,9 +10,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " 编辑格式统一插件
     Plug 'editorconfig/editorconfig-vim'
-    " Better Comments
+    " 注释
     Plug 'tpope/vim-commentary'
-    " Change dates fast
+    " 快速修改日期
     Plug 'tpope/vim-speeddating'
     " Convert binary, hex, etc..
     Plug 'glts/vim-radical'
@@ -30,7 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'asvetliakov/vim-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
-    " Sneak
+    " 快速移动
     Plug 'justinmk/vim-sneak'
     " Surround
     Plug 'tpope/vim-surround'
@@ -42,6 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
     " Plug 'nvim-treesitter/nvim-treesitter'
+    " 语法高亮
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
     Plug 'ryanoasis/vim-devicons'
@@ -49,7 +50,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
-    " Themes
+    " 主题
     Plug 'christianchiarulli/nvcode.vim'
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
@@ -74,7 +75,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     " 大纲
     Plug 'liuchengxu/vista.vim'
-    " See what keys do like in emacs
+    " 按键映射
     Plug 'liuchengxu/vim-which-key'
     " 专注模式
     Plug 'junegunn/goyo.vim'

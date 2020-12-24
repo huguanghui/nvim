@@ -51,6 +51,9 @@
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.extends": {
+    "cpp": ["c"]
+  },
   //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 
   // emmet

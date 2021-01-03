@@ -52,7 +52,8 @@
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
   "snippets.extends": {
-    "cpp": ["c"]
+    "cpp": ["c"],
+    "perl": ["pl"]
   },
   //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 

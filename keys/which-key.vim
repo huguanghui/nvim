@@ -209,8 +209,8 @@ let g:which_key_map.s = {
       \ 'q' : [':CocCommand fzf-preview.QuickFix'                  , 'quickfix list'],
       \ 's' : [':CocList snippets'      , 'snippets'],
       \ 'S' : [':Colors'                , 'color schemes'],
-      \ 't' : [':Rg'                    , 'text Rg'],
-      \ 'T' : [':BTags'                 , 'buffer tags'],
+      \ 't' : [':Leaderf rg'                    , 'text Rg'],
+      \ 'T' : [':LeaderfFunction!'                 , 'buffer tags'],
       \ 'w' : [':Windows'               , 'search windows'],
       \ 'y' : [':Filetypes'             , 'file types'],
       \ 'z' : [':FZF'                   , 'FZF'],
@@ -225,6 +225,8 @@ let g:which_key_map.s = {
 " :CocCommand fzf-preview.CocTypeDefinitions
 " \ 'l' : [':CocCommand fzf-preview.Bookmarks', 'list bookmarks'],
 " $FZF_PREVIEW_PREVIEW_BAT_THEME = 'ansi-dark'
+" \ 't' : [':Rg'                    , 'text Rg'],
+" \ 'T' : [':BTags'                 , 'buffer tags'],
 " 
 
 let g:which_key_map.S = {

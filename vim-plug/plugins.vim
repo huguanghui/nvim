@@ -51,7 +51,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " 主题
-    Plug 'christianchiarulli/nvcode.vim'
+    Plug 'huguanghui/nvcode'
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
     " 智能感知
@@ -61,7 +61,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kevinhwang91/rnvimr'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
+    " Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
     Plug 'junegunn/fzf.vim'
     " Git
     Plug 'airblade/vim-gitgutter'
@@ -70,6 +70,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
     " 终端
+    " 模糊查找插件
+    Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }"
     Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'

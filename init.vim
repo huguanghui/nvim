@@ -29,7 +29,7 @@ else
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
   if has_key(plugs, 'editorconfig-vim')
-    source $HOME/.vim/plug-config/editorconfig-vim.vim
+    source $HOME/.config/nvim/plug-config/editorconfig-vim.vim
   endif
   source $HOME/.config/nvim/plug-config/vim-commentary.vim
   " source $HOME/.config/nvim/plug-config/rainbow.vim
@@ -60,6 +60,10 @@ else
   luafile $HOME/.config/nvim/lua/plug-colorizer.lua
   source $HOME/.config/nvim/plug-config/vimspector.vim
   " source $HOME/.config/nvim/plug-config/ale.vim
+  " LeaderF                                                                                                                                                                
+  if has_key(plugs, 'LeaderF')
+    source $HOME/.config/nvim/plug-config/LeaderF.vim
+  endif
 endif
 source $HOME/.config/nvim/plug-config/quickscope.vim
 

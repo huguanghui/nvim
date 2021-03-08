@@ -387,5 +387,9 @@ let g:which_key_map.t = {
 " <Plug>VimwikiRenameLink
 " <Plug>VimwikiAddHeaderLevel
 
+" which key ignore
+let g:which_key_map['<F8>'] = 'which_key_ignore'
+let g:which_key_map['<F9>'] = 'which_key_ignore'
+
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
